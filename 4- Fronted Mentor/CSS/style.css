@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+    background-color: bisque;
+}
+
+/* variables definition */
+
+:root {
+
+    /* The designs were created to the following widths: */
+    --mobile_width: 375px;
+    --desktop_width: 1440px;
+
+    /* ### Primary */
+    --dark_cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    
+    /* ### Neutral */
+    --very_dark_blue: hsl(212, 21%, 14%);
+    --dark_grayish_blue: hsl(228, 12%, 48%);
+
+    --paragraph_size: 14px;
+}
+
+.montserrat-500 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.montserrat-700 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.fraunces-700 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.flexContainer{
+    display: flex;
+    background-color: aliceblue;
+    position: absolute;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+  
+   
+
+
+}
+.imatge {
+    padding: 10px 10px;
+    background-color:rgba(245, 245, 220, 0.767);
+
+ 
+
+}
+.text{
+
+    background-color: aliceblue;
+    width: 300px;
+    height: 150px;
+    padding-left: 20px ;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
+} 
+.titulo{
+    font-family: 'Abril Fatface', serif;    
+    background-color: aliceblue;
+    font-size: large;
+ 
+}
+.subtitulo{
+    background-color: aliceblue;
+    font-style: Courier;
+    font-size: xx-large;
+    
+    
+
+}
+.texto{
+    background-color: aliceblue;
+    font-style: Courier;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif
+
+}
+.precio{
+    background-color: aliceblue;
+    color: green;
+    margin-top: 20px;
+    font-size: x-large;
+    font-style: Courier;
+
+    
+}
+.precioAnterior{
+    background-color: aliceblue;
+    color: black;
+    font-size: x-small;
+    padding-left: 100px;
+    text-decoration: line-through;
+}
+.boton{
+    background-color: green;
+    color: aliceblue;
+    font-size: x-large;
+    border-radius: 10px;
+    height: 70px;
+    width: 200px;
+    margin-top: 5px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+@media (min-width: 1440px) {
+    .flexContainer {
+      flex-direction: row;
+      width: 1000px;
+        display: flex;
+        background-color:rgba(255, 222, 173, 0) ;
+    }
+  
+  .imatge { 
+  
+  margin-left: 45px;
+  margin-top: 100px;
+  display: flex;
+  
+
+  }
+  
+  .text {
+    display: flex;
+    margin-top: 100px;
+    padding: 45px;
+    height: 400px;
+
+  }
+ 
+    
+  
+  
+  }
