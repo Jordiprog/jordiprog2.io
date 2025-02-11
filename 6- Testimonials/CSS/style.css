@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+.root{
+
+    /* The designs were created to the following widths: */
+    --mobile_width: 375px;
+    --desktop_width: 1440px;
+
+    /* ### Primary */
+    --dark_cyan: hsl(0, 0%, 0%);
+    --cream: hsl(30, 38%, 92%);
+    
+    /* ### Neutral */
+    --very_dark_blue: hsl(212, 21%, 14%);
+    --dark_grayish_blue: hsl(228, 12%, 48%);
+
+    --paragraph_size: 14px;
+}
+body {
+
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(245, 245, 234);
+}
+
+.flex_container {
+    display: grid;
+    align-content: center;
+}
+
+.targeta1,
+.targeta2,
+.targeta3,
+.targeta4,
+.targeta5 {
+    display: block;
+    width: 330px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: 10px 5px 10px rgb(201, 200, 200);
+    
+}
+.targeta1{
+    background-color:rgb(132, 0, 255);
+}
+.targeta2{
+    background-color:rgb(71, 71, 71) ;
+}
+.targeta3{
+    background-color: rgb(241, 243, 245);
+}
+.targeta4{
+    background-color: rgb(255, 255, 255);
+}
+.targeta5{
+    background-color: rgb(2, 22, 43);
+}
+.icono{
+    border-radius: 50px;
+    position: absolute;
+}
+.name{
+    
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.comillas{
+    font-size: 580px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.411);
+    margin-left: 250px;
+    margin-top: -100px;
+    
+
+    
+    
+
+}
+.texto1{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 5px 5px;
+    text-align: left;
+    margin-top: 20px;
+}
+.texto2{
+    padding: 5px 5px;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    text-align: left;
+
+}
+.nombre{
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 1px; 
+      
+}
+.subtitulo{
+    color: aliceblue;
+    font-size: small;
+}
+.subtitulo2{
+    font-size: small;
+}
+
+.nombre2{
+    font-weight: bold;
+}
+.texto3{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.texto4{
+    margin-top: 10px;
+    font-size: small;
+    text-align: left; 
+}
+@media(min-width :1440px) {
+
+    .targeta1{ 
+        grid-area: lila;
+        width: auto;
+        height: auto;
+    }
+
+    .targeta2{  
+        grid-area: negro; 
+        width: auto;
+        height: auto;
+        }
+
+    .targeta3{
+         grid-area: blanco;
+         width: auto;
+         height: auto; 
+        }
+
+    .targeta4{ 
+        grid-area:  blanco2; 
+        width: auto; 
+        height: auto;
+    }
+    .targeta5{ 
+        grid-area: negro2; 
+        width: auto; 
+        height: auto;
+
+    }
+
+.grid_container {
+        display: grid;
+        grid-template-areas:
+        'lila     lila  negro  negro  blanco'
+        'blanco2 negro2 negro2 negro2 blanco'
+        'blanco2 negro2 negro2 negro2 blanco';
+        padding: 20px;
+    }
+}
