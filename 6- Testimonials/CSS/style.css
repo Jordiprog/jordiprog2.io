@@ -101,9 +101,6 @@ body {
     color: aliceblue;
     font-weight: bold;
     
-  
-   
-      
 }
 .subtitulo{
     color: aliceblue;
@@ -163,9 +160,7 @@ body {
         grid-area: negro2; 
         width: auto; 
         height: auto;
-
     }
-
 .grid_container {
         display: grid;
         grid-template-areas:
