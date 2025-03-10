@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+    
+}
+.fondo{
+    background-color: rgb(230, 227, 223);
+}
+.flex_container {
+    position: flex;
+    width: 335px;
+    height: auto;
+    border-radius: 10px;
+    margin:20px 20px;
+    background-color:hsl(0, 0%, 100%);
+
+}
+.foto{
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    width: 335px;
+}
+.parte2{
+    margin: 10px 10px;  
+}
+.texto1{
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+.texto2{
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.parte3{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 70px auto 70px;
+}
+.icono{
+    border-radius: 70px;
+    width:70px;
+    margin-left: 10px;    
+}
+.information{
+   display: block;
+   margin-left: 30px;
+   width: 180px;
+   margin-top: 25px;
+}
+.nombre{
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+.fecha{
+    display: block;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+}
+.compartir{
+    display: inline-block;
+    border-radius: 55px;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px gray solid;
+    
+}
+.inactivado{
+    display: grid;
+    grid-template-columns: 80px 60px 60px 60px 80px;
+    background-color: hsl(217, 19%, 35%);
+    padding: 10px 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.compartir2{
+    display: inline-block;
+    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(180, 180, 180, 0);
+}
+.Share{
+    color: rgba(175, 174, 174, 0.925);
+    font-weight: 400;
+    
+}
+
+@media(min-width :1440px){
+
+    .foto{
+       height: 300px;
+       border-bottom-left-radius: 10px;
+       border-top-right-radius: 0px;
+    }    
+    .flex_container{
+        position: flex;
+        grid-template-columns:340px 450px;
+        display: grid;
+        height: 300px;
+        width: 800px;
+        margin-left: 300px;
+        margin-top: 200px;
+        
+    }
+    .parte3{
+        position: absolute;
+        margin-left: 400px;
+        margin-top: 220px;
+    }
+    .inactivado{
+        display: grid;
+        grid-template-columns: 60px 60px 60px 60px 60px;
+        height: 100px;
+        width: 300px;
+        margin-left: 400px;
+        margin-top: -100px;
+        clip-path: polygon(0 17%, 0 0, 31% 0, 69% 0, 100% 0, 100% 19%, 100% 38%, 62% 38%, 47% 55%, 48% 55%, 34% 38%, 0 38%);
+    }
+    
+}
